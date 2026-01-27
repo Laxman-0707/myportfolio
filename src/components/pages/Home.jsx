@@ -71,7 +71,7 @@ const Home = () => {
             variants={buttonVariant}
           >
             <motion.a
-              href="/LaxmanKumarjaligi_fresher.pdf"
+              href="/Laxman_kumar_jaligi_fresher.pdf"
               download
               whileHover={{ scale: 1.05 }}
               className="px-4 py-2 sm:px-5 sm:py-2.5 bg-gradient-to-r flex justify-center items-center gap-1 from-cyan-500 to-indigo-700 rounded-md text-white font-semibold shadow-md text-sm sm:text-base w-full sm:w-auto"

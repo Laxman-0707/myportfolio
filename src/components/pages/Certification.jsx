@@ -9,6 +9,7 @@ import mindlustercertificate from "../image/mindlustercertificate.png";
 import tsic from "../image/tsic.png";
 import gc from "../image/gc.png";
 import javaimage from "../image/javaimage.png";
+import Be10x from "../image/Be10x.jpeg";
 
 const Certification = () => {
   return (
@@ -114,8 +115,20 @@ const Certification = () => {
                 
               </h3>
             </div>
-
              {/* Slide 7 */}
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src={Be10x}
+                alt="Be10x certificate"
+                className="w-full h-64 object-contain rounded-sm"
+              />
+              <h3 className="text-xl text-center mt-4 text-green-300 font-semibold mb-9">
+              
+              </h3>
+            </div>  
+
+
+             {/* Slide 8 */}
             <div className="flex flex-col items-center justify-center">
               <img
                 src={nptel}
@@ -126,6 +139,7 @@ const Certification = () => {
               
               </h3>
             </div>  
+            
 
           </Carousel>
         </div>
