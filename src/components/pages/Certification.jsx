@@ -10,6 +10,9 @@ import tsic from "../image/tsic.png";
 import gc from "../image/gc.png";
 import javaimage from "../image/javaimage.png";
 import Be10x from "../image/Be10x.jpeg";
+import jpm from "../image/jpm.jpeg";
+import dataforage from "../image/dataforage.jpeg";
+import awsforage from "../image/awsforage.jpeg";
 
 const Certification = () => {
   return (
@@ -45,7 +48,19 @@ const Certification = () => {
             <div className="flex flex-col items-center justify-center">
               <img
                 src={mindlustercertificate}
-                alt="java certificate"
+                alt="mysql certificate"
+                className="w-full h-64 object-contain rounded-sm"
+              />
+              <h3 className="text-xl text-center mt-4 text-sky-300 font-semibold">
+                
+              </h3>
+              
+            </div>
+            {/* Slide 1 */}
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src={jpm}
+                alt="JPMorgan certificate"
                 className="w-full h-64 object-contain rounded-sm"
               />
               <h3 className="text-xl text-center mt-4 text-sky-300 font-semibold">
@@ -70,6 +85,17 @@ const Certification = () => {
               <img
                 src={gc}
                 alt="training certificate"
+                className="w-full h-64 object-contain rounded-sm"
+              />
+              <h3 className="text-xl text-center mt-4 text-sky-300 font-semibold">
+                
+              </h3>
+            </div>
+            {/* Slide 1 */}
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src={awsforage}
+                alt="AWS certificate"
                 className="w-full h-64 object-contain rounded-sm"
               />
               <h3 className="text-xl text-center mt-4 text-sky-300 font-semibold">
@@ -101,6 +127,17 @@ const Certification = () => {
               
               </h3>
               
+            </div>
+            {/* Slide 1 */}
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src={dataforage}
+                alt="software engineering certificate"
+                className="w-full h-64 object-contain rounded-sm"
+              />
+              <h3 className="text-xl text-center mt-4 text-sky-300 font-semibold">
+                
+              </h3>
             </div>
 
             {/* Slide 6 */}
